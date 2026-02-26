@@ -10,7 +10,7 @@
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 ### ROC Curve
 ![ROC Curve](reports/roc_curve.png)
@@ -20,7 +20,7 @@
 
 ---
 
-## 🔝 Top Churn Drivers
+## Top Churn Drivers
 
 ### Increasing Churn
 ![Top Increasing](reports/top_10_increasing.png)
@@ -30,7 +30,7 @@
 
 ---
 ---
-## 📌 Project Overview
+##  Project Overview
 
 Customer churn prediction is a critical problem in subscription-based industries.  
 This project develops an end-to-end machine learning pipeline to identify customers at risk of leaving a telecom company, enabling proactive retention strategies.
@@ -39,7 +39,7 @@ The project focuses not only on predictive performance, but also on business int
 
 ---
 
-## 🎯 Problem Definition
+## Problem Definition
 
 Binary Classification Task  
 
@@ -51,7 +51,7 @@ The objective is to maximize identification of at-risk customers while balancing
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 IBM Telco Customer Churn Dataset  
 
@@ -61,7 +61,7 @@ IBM Telco Customer Churn Dataset
 
 ---
 
-## 🔎 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 Key Observations:
 
@@ -74,7 +74,7 @@ All EDA visualizations are saved in the reports/ directory.
 
 ---
 
-## 🛠 Feature Engineering & Preprocessing
+## Feature Engineering & Preprocessing
 
 - Cleaned and standardized column names
 - Converted TotalCharges to numeric
@@ -88,7 +88,7 @@ All preprocessing steps are handled using a ColumnTransformer inside a Scikit-le
 
 ---
 
-## 🧱 Technical Architecture
+## Technical Architecture
 
 The project uses a structured ML pipeline:
 
@@ -104,7 +104,7 @@ This ensures reproducibility, modularity, and production-style workflow.
 
 ---
 
-## 🤖 Model Development
+##  Model Development
 
 Baseline Model: Logistic Regression  
 
@@ -117,7 +117,7 @@ Why Logistic Regression?
 
 ---
 
-## 📈 Model Evaluation
+##  Model Evaluation
 
 Metrics Used:
 
@@ -137,7 +137,7 @@ Threshold tuning was applied to prioritize recall, as false negatives (missed ch
 
 ---
 
-## 🔍 Explainability
+##  Explainability
 
 Model coefficients were transformed into Odds Ratios to identify key churn drivers.
 
@@ -157,7 +157,7 @@ Feature importance reports and visualizations are saved in reports/.
 
 ---
 
-## 💼 Business Impact
+##  Business Impact
 
 This model enables:
 
@@ -169,7 +169,7 @@ This model enables:
 
 ---
 
-## ⚠ Model Limitations
+##  Model Limitations
 
 - Dataset reflects U.S. telecom behavior and may not generalize globally without retraining.
 - Logistic Regression assumes linear log-odds relationships.
@@ -178,7 +178,7 @@ This model enables:
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Compare with tree-based models (Random Forest, XGBoost, Gradient Boosting)
 - Perform hyperparameter tuning
@@ -189,7 +189,7 @@ This model enables:
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 python src/pipeline.py
