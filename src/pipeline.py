@@ -127,6 +127,7 @@ def run_pipeline():
     plt.title("Confusion Matrix")
     plt.xlabel("Predicted")
     plt.ylabel("Actual")
+    plt.savefig("reports/confusion_matrix.png")
     plt.show()
 
     # -----------------------------
@@ -141,8 +142,8 @@ def run_pipeline():
     plt.ylabel("True Positive Rate")
     plt.title("ROC Curve")
     plt.legend()
+    plt.savefig("reports/roc_curve.png")
     plt.show()
-
     # -----------------------------
     # Cross Validation
     # -----------------------------
