@@ -1,5 +1,20 @@
 # 📊 Customer Churn Prediction (Telecom)
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
+![Status](https://img.shields.io/badge/Project-Complete-success)
+![ROC-AUC](https://img.shields.io/badge/ROC--AUC-0.83-brightgreen)
 
+---
+
+## 📈 Model Performance Snapshot
+
+### ROC Curve
+![ROC Curve](reports/roc_curve.png)
+
+### Top Churn Drivers
+![Top Increasing](reports/top_10_increasing.png)
+
+---
 ## 📌 Project Overview
 
 Customer churn prediction is a critical problem in subscription-based industries.  
