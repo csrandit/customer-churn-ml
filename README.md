@@ -1,4 +1,6 @@
 # 📊 Customer Churn Prediction (Telecom)
+  An end-to-end production-style machine learning pipeline for telecom churn prediction.
+
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
 ![Status](https://img.shields.io/badge/Project-Complete-success)
@@ -6,14 +8,27 @@
 
 ---
 
-## 📈 Model Performance Snapshot
+---
+
+## 📈 Model Performance
 
 ### ROC Curve
 ![ROC Curve](reports/roc_curve.png)
 
-### Top Churn Drivers
+### Confusion Matrix
+![Confusion Matrix](reports/confusion_matrix.png)
+
+---
+
+## 🔝 Top Churn Drivers
+
+### Increasing Churn
 ![Top Increasing](reports/top_10_increasing.png)
 
+### Decreasing Churn
+![Top Decreasing](reports/top_10_decreasing.png)
+
+---
 ---
 ## 📌 Project Overview
 
