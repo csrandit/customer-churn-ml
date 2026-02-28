@@ -164,7 +164,7 @@ Feature importance reports and visualizations are saved in reports/.
  • Marketing budget allocation based on churn probability segmentation
  • Actionable risk scoring framework for decision-makers
 
-⸻
+---
 ### Model Limitations
 
  • Dataset reflects U.S. telecom behavior and may not generalize without retraining.
@@ -172,7 +172,7 @@ Feature importance reports and visualizations are saved in reports/.
  • Class imbalance handled without cost-sensitive weighting.
  • Baseline hyperparameters used without full optimization study.
 
-⸻
+---
 ### Roadmap & System Extensions
 
  • Benchmark against tree-based ensemble models (Random Forest, Gradient Boosting, XGBoost)
