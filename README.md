@@ -156,36 +156,31 @@ Model coefficients were transformed into Odds Ratios to identify key churn drive
 Feature importance reports and visualizations are saved in reports/.
 
 ---
+### Business Impact
 
-##  Business Impact
+ • Early identification of high-risk customers for proactive intervention
+ • Data-driven retention strategy optimization
+ • Improved Customer Lifetime Value (CLV) forecasting
+ • Marketing budget allocation based on churn probability segmentation
+ • Actionable risk scoring framework for decision-makers
 
-This model enables:
+⸻
+### Model Limitations
 
-- Early identification of high-risk customers
-- Targeted retention campaigns
-- Improved customer lifetime value
-- Optimized marketing budget allocation
-- Data-driven decision-making
+ • Dataset reflects U.S. telecom behavior and may not generalize without retraining.
+ • Logistic Regression assumes linear log-odds relationships.
+ • Class imbalance handled without cost-sensitive weighting.
+ • Baseline hyperparameters used without full optimization study.
 
----
+⸻
+### Roadmap & System Extensions
 
-##  Model Limitations
-
-- Dataset reflects U.S. telecom behavior and may not generalize globally without retraining.
-- Logistic Regression assumes linear log-odds relationships.
-- No cost-sensitive learning implemented.
-- No hyperparameter optimization beyond baseline configuration.
-
----
-
-##  Future Improvements
-
-- Compare with tree-based models (Random Forest, XGBoost, Gradient Boosting)
-- Perform hyperparameter tuning
-- Introduce cost-sensitive learning
-- Deploy model via FastAPI
-- Containerize using Docker
-- Simulate real-world retention budget constraints
+ • Benchmark against tree-based ensemble models (Random Forest, Gradient Boosting, XGBoost)
+ • Introduce SHAP-based model interpretability
+ • Implement cost-sensitive learning for business-aligned risk modeling
+ • Expose model as REST API (FastAPI)
+ • Containerize with Docker for production portability
+ • Integrate real-world retention budget simulation
 
 ---
 
